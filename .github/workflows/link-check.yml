@@ -1,29 +1,28 @@
-name: Check external links
+name: Check links
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "17 3 * * 1"
+
   pull_request:
     paths:
       - "**/*.md"
       - "data/resources.json"
-  push:
-    branches: [main]
-    paths:
-      - "**/*.md"
-      - "data/resources.json"
+      - ".github/workflows/link-check.yml"
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   lychee:
+    name: Check repository links
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check repository links
         uses: lycheeverse/lychee-action@v2
@@ -31,10 +30,9 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --accept 200,206,429
-            --exclude-mail
+            --accept "200..=299,429"
             --exclude-loopback
-            --exclude "github.com/islam-md-didarul"
             "**/*.md"
             "data/resources.json"
           fail: true
+          token: ${{ secrets.GITHUB_TOKEN }}
