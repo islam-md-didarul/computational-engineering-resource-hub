@@ -60,21 +60,6 @@ Computational engineering combines mathematical modeling, numerical algorithms, 
 
 Read the expanded guide: **[Computational Engineering Learning Roadmap](docs/learning-roadmap.md)**.
 
-## Explore by category
-
-| Category | Scope |
-|---|---|
-| 🧰 **[Programming & Tools](#programming-tools)** (8) | Scientific programming, version control, Linux, debugging, and developer workflows. |
-| 🔢 **[Numerical Methods](#numerical-methods)** (4) | Algorithms for solving equations, ODEs, PDEs, interpolation, integration, and numerical error. |
-| 📐 **[Mathematics](#mathematics)** (6) | Calculus, linear algebra, differential equations, probability, and mathematical foundations. |
-| ⚙️ **[Physics & Mechanics](#physics-mechanics)** (4) | Fluid dynamics, thermodynamics, statics, dynamics, and continuum-mechanics foundations. |
-| 🌊 **[CFD & Fluid Mechanics](#cfd-fluid-mechanics)** (7) | Finite-volume methods, CFD theory, OpenFOAM, SU2, verification, and turbulence modeling. |
-| 🏗️ **[FEA & Solid Mechanics](#fea-solid-mechanics)** (4) | Finite-element methods, structural mechanics, open-source solvers, and practical tutorials. |
-| 🚀 **[HPC & Parallel Computing](#hpc-parallel-computing)** (6) | MPI, OpenMP, GPU programming, performance engineering, and scalable scientific computing. |
-| 🧠 **[Data, ML & Scientific AI](#data-ml-scientific-ai)** (8) | Scientific Python, machine learning, differentiable computing, PINNs, and operator learning. |
-| 🎯 **[Optimization & Control](#optimization-control)** (6) | Design optimization, convex methods, multidisciplinary optimization, and dynamical systems. |
-| 🔬 **[Research Workflow](#research-workflow)** (5) | Reproducibility, scientific writing, data management, citation, and collaborative research practice. |
-
 ## Resource library
 
 Each section can be expanded independently. Access labels reflect the information stored in [`data/resources.json`](data/resources.json).
@@ -272,31 +257,6 @@ python scripts/generate_readme.py
 ```
 
 Read **[CONTRIBUTING.md](CONTRIBUTING.md)** before submitting a pull request.
-
-## Repository structure
-
-```text
-computational-engineering-resource-hub/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   └── workflows/
-│       ├── link-check.yml
-│       └── validate-resources.yml
-├── data/
-│   └── resources.json
-├── docs/
-│   ├── learning-roadmap.md
-│   └── resource-guidelines.md
-├── scripts/
-│   ├── generate_readme.py
-│   └── validate_resources.py
-├── CITATION.cff
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── SECURITY.md
-```
 
 ## Citation
 
