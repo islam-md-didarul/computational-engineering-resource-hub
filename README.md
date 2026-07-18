@@ -103,6 +103,8 @@ flowchart LR
 
 ## Resource library
 
+<div align="center">
+
 > [!TIP]
 > Expand only the categories you need. **⭐** marks a recommended starting point, while `tags` help you quickly identify the main focus of each resource.
 
@@ -276,6 +278,8 @@ flowchart LR
 
 </details>
 <!-- RESOURCE_LIBRARY_END -->
+
+</div>
 
 ## Curation framework
 
