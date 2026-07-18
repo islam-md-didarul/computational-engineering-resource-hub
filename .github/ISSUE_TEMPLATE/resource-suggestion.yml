@@ -1,0 +1,61 @@
+name: Resource suggestion
+description: Suggest a course, book, tool, tutorial, benchmark, or documentation site.
+title: "[Resource]: "
+labels: ["resource suggestion"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+      placeholder: Example — PETSc Documentation
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      placeholder: https://example.org/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Programming & Tools
+        - Numerical Methods
+        - Mathematics
+        - Physics & Mechanics
+        - CFD & Fluid Mechanics
+        - FEA & Solid Mechanics
+        - HPC & Parallel Computing
+        - Data, ML & Scientific AI
+        - Optimization & Control
+        - Research Workflow
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Suggested level
+      options: [Beginner, Intermediate, Advanced]
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is this useful?
+      description: Describe the engineering skills it supports and who will benefit.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: The link is public and currently works.
+          required: true
+        - label: This is not a pirated or unauthorized copy.
+          required: true
+        - label: I searched existing resources for duplicates.
+          required: true

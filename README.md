@@ -1,281 +1,361 @@
+<a id="top"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/branding/banner-light.svg">
+  <img alt="Computational Engineering Resource Hub" src="assets/branding/banner-light.svg" width="100%">
+</picture>
+
 <div align="center">
 
-# Computational Engineering Resource Hub
+### Learn the foundations. Build trusted simulations. Scale toward scientific AI.
 
-**A curated, repository-first learning hub for computational engineering.**
+[![Resource Library](https://img.shields.io/badge/Browse-58_Resources-0969da?style=for-the-badge&logo=readthedocs&logoColor=white)](#resource-library)
+[![Learning Roadmap](https://img.shields.io/badge/Follow-Learning_Roadmap-8250df?style=for-the-badge&logo=roadmap.sh&logoColor=white)](#learning-roadmap)
+[![Contribute](https://img.shields.io/badge/Suggest-a_Resource-1f883d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/islam-md-didarul/computational-engineering-resource-hub/issues/new?template=resource-suggestion.yml)
 
-Programming · Numerical methods · Mathematics · CFD · FEA · HPC · Scientific AI · Optimization · Research
-
-[![Resources](https://img.shields.io/badge/resources-58-0969da?style=for-the-badge)](#resource-library)
-[![Categories](https://img.shields.io/badge/categories-10-8250df?style=for-the-badge)](#explore-by-category)
-[![License: MIT](https://img.shields.io/badge/license-MIT-1f883d?style=for-the-badge)](LICENSE)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-f59e0b?style=for-the-badge)](CONTRIBUTING.md)
+[![Validate resources](https://github.com/islam-md-didarul/computational-engineering-resource-hub/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/islam-md-didarul/computational-engineering-resource-hub/actions/workflows/validate-resources.yml)
+[![Link check](https://github.com/islam-md-didarul/computational-engineering-resource-hub/actions/workflows/link-check.yml/badge.svg)](https://github.com/islam-md-didarul/computational-engineering-resource-hub/actions/workflows/link-check.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 </div>
 
-> [!NOTE]
-> This repository is designed to be read directly on GitHub. No separate GitHub Pages website is required.
+> [!IMPORTANT]
+> This is a **repository-first knowledge hub**. Everything is designed to work directly inside GitHub—no separate website, custom CSS, or GitHub Pages deployment is required.
 
-## Overview
+## At a glance
 
-Computational engineering combines mathematical modeling, numerical algorithms, scientific software, high-performance computing, and domain knowledge. This repository organizes reliable learning materials into a practical path from foundations to advanced simulation and scientific AI.
+| **58 curated resources** | **10 technical domains** | **57 free/open resources** | **18 editor's picks** |
+|:---:|:---:|:---:|:---:|
+| Courses, books, documentation, tutorials, and references | From programming foundations to scientific AI | Prioritizing accessible learning and official sources | Marked with ⭐ inside the library |
 
-**Use it to:**
+## Why this repository
 
-- build a structured self-study plan;
-- locate official courses, books, documentation, and tutorials;
-- strengthen CFD, FEA, numerical methods, HPC, optimization, and research skills;
-- suggest or review new resources through issues and pull requests.
-
-## Quick navigation
-
-| Start here | Explore | Contribute |
+| 🎯 **Structured, not overwhelming** | 🧪 **Engineering-focused** | ✅ **Quality-controlled** |
 |---|---|---|
-| [Learning roadmap](#learning-roadmap) | [Resource library](#resource-library) | [Contribution guide](CONTRIBUTING.md) |
-| [Featured resources](#featured-starting-points) | [Categories](#explore-by-category) | [Suggest a resource](https://github.com/islam-md-didarul/computational-engineering-resource-hub/issues/new?template=resource-suggestion.yml) |
-| [Repository structure](#repository-structure) | [Selection criteria](docs/resource-guidelines.md) | [Report a problem](https://github.com/islam-md-didarul/computational-engineering-resource-hub/issues/new) |
+| Resources are arranged as a progression from foundations to advanced practice. | The collection emphasizes simulation, numerical modeling, HPC, optimization, and scientific AI. | Entries are stored in structured JSON and checked automatically for format and broken links. |
 
-## Featured starting points
+## Choose your learning track
 
-- **[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)** — Practical command-line, shell, Git, editor, debugging, and automation skills that engineering courses often assume.
-- **[Python Programming and Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)** — Engineering-oriented Python examples covering numerical differentiation, integration, roots, linear algebra, and differential equations.
-- **[Fundamentals of Numerical Computation](https://fncbook.com/)** — An open text combining numerical analysis, computational experiments, and implementations in multiple languages.
-- **[Essence of Calculus](https://www.3blue1brown.com/topics/calculus)** — Visual intuition for derivatives, integrals, limits, Taylor series, and the fundamental theorem of calculus.
-- **[Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)** — A geometric introduction to vectors, matrices, determinants, eigenvectors, and changes of basis.
-- **[MIT Fluid Dynamics](https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/)** — Core fluid dynamics topics including conservation laws, dimensional analysis, viscous flow, boundary layers, and waves.
-- **[CFD Direct: Notes on CFD](https://doc.cfd.direct/notes/cfd-general-principles/)** — A compact treatment of finite-volume discretization, transport equations, solution algorithms, and practical CFD principles.
-- **[OpenFOAM Documentation](https://doc.openfoam.com/)** — User guides, solver references, models, boundary conditions, meshing workflows, and tutorials for OpenFOAM.
+| Track | Recommended sequence | Best for |
+|---|---|---|
+| **🧱 Foundations** | [Programming](#programming-tools) → [Mathematics](#mathematics) → [Numerical Methods](#numerical-methods) | Students beginning computational engineering |
+| **🌊 Simulation & CFD** | [Physics](#physics-mechanics) → [Numerical Methods](#numerical-methods) → [CFD](#cfd-fluid-mechanics) → [HPC](#hpc-parallel-computing) | CFD analysts and fluid-mechanics researchers |
+| **🏗️ Structures & Multiphysics** | [Mathematics](#mathematics) → [FEA](#fea-solid-mechanics) → [HPC](#hpc-parallel-computing) → [Optimization](#optimization-control) | Structural, solid-mechanics, and multiphysics learners |
+| **🧠 Scientific AI** | [Programming](#programming-tools) → [Numerical Methods](#numerical-methods) → [Data & ML](#data-ml-scientific-ai) → [Research Workflow](#research-workflow) | Researchers combining simulation with ML/ROM methods |
 
 ## Learning roadmap
 
-| Stage | Focus | Practical milestone |
-|---:|---|---|
-| **1** | Computing foundations | Create a reproducible repository that reads data, performs a calculation, and produces a figure. |
-| **2** | Mathematical foundations | Implement and compare methods for a linear system or ordinary differential equation. |
-| **3** | Numerical methods | Solve a canonical diffusion, advection, or Poisson problem and perform grid convergence. |
-| **4** | Domain simulation | Reproduce a published CFD, FEA, heat-transfer, or multiphysics benchmark. |
-| **5** | Scale and acceleration | Profile and parallelize a solver or post-processing workflow; report scaling. |
-| **6** | Optimization and scientific AI | Compare an optimized design or data-driven surrogate against a trusted numerical baseline. |
-| **7** | Reproducible research | Publish data, code, environment details, figures, documentation, and a citable release. |
+```mermaid
+flowchart LR
+    A[1 · Programming & Tools] --> B[2 · Mathematics]
+    B --> C[3 · Numerical Methods]
+    C --> D{4 · Domain Simulation}
+    D --> E[5 · HPC & Acceleration]
+    E --> F[6 · Optimization / Scientific AI]
+    F --> G[7 · Reproducible Research]
 
-Read the expanded guide: **[Computational Engineering Learning Roadmap](docs/learning-roadmap.md)**.
+    D --> D1[CFD]
+    D --> D2[FEA]
+    D --> D3[Multiphysics]
+```
+
+| Stage | Build this capability | Evidence of progress |
+|:---:|---|---|
+| **01** | Scientific programming, shell, Git, plotting | A reproducible repository that reads data and produces a figure |
+| **02** | Calculus, linear algebra, ODEs, probability | A notebook explaining and implementing one mathematical model |
+| **03** | Discretization, solvers, stability, convergence | A verified diffusion, advection, Poisson, or ODE solver |
+| **04** | CFD, FEA, heat transfer, or multiphysics | Reproduction of a published benchmark with mesh/time-step evidence |
+| **05** | Profiling, MPI/OpenMP/GPU, scalable solvers | A documented speedup or scaling study |
+| **06** | Optimization, ROM, PINNs, operator learning | Comparison against a trusted numerical baseline |
+| **07** | Data, code, documentation, citation, release | A citable and reproducible research package |
+
+**Expanded guide:** [Computational Engineering Learning Roadmap](docs/learning-roadmap.md)
+
+## Start with these editor's picks
+
+| Area | Recommended starting point | Why it stands out |
+|---|---|---|
+| **Computing workflow** | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | Practical shell, Git, debugging, and automation skills often missing from engineering curricula |
+| **Numerical computing** | [Python Programming and Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html) | Engineering-first examples with executable Python workflows |
+| **Mathematical intuition** | [Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) | Strong visual understanding of matrices, eigenvectors, and transformations |
+| **CFD fundamentals** | [CFD Direct: Notes on CFD](https://doc.cfd.direct/notes/cfd-general-principles/) | Concise finite-volume and solver guidance from an authoritative source |
+| **Turbulence modeling** | [NASA Turbulence Modeling Resource](https://turbmodels.larc.nasa.gov/) | Verified model equations, implementation details, and benchmark cases |
+| **Scientific AI** | [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) | Connects numerical simulation, differentiable physics, and modern learning methods |
+| **Reproducible research** | [The Turing Way](https://book.the-turing-way.org/) | A practical handbook for reliable, ethical, and collaborative research |
+
+## Explore by category
+
+| Category | Resources | Scope |
+|---|:---:|---|
+| 🧰 **[Programming & Tools](#programming-tools)** | **8** | Scientific programming, Git, Linux, debugging, and reproducible developer workflows. |
+| 🔢 **[Numerical Methods](#numerical-methods)** | **4** | Algorithms for equations, ODEs, PDEs, integration, interpolation, and error analysis. |
+| 📐 **[Mathematics](#mathematics)** | **6** | Calculus, linear algebra, differential equations, probability, and mathematical foundations. |
+| ⚙️ **[Physics & Mechanics](#physics-mechanics)** | **4** | Fluid dynamics, thermodynamics, statics, dynamics, and continuum mechanics. |
+| 🌊 **[CFD & Fluid Mechanics](#cfd-fluid-mechanics)** | **7** | Finite-volume methods, solvers, meshing, turbulence modeling, and verification. |
+| 🏗️ **[FEA & Solid Mechanics](#fea-solid-mechanics)** | **4** | Finite-element theory, structural simulation, open-source frameworks, and examples. |
+| 🚀 **[HPC & Parallel Computing](#hpc-parallel-computing)** | **6** | MPI, OpenMP, GPU programming, performance engineering, and scalable solvers. |
+| 🧠 **[Data, ML & Scientific AI](#data-ml-scientific-ai)** | **8** | Scientific Python, machine learning, PINNs, operator learning, and reduced-order models. |
+| 🎯 **[Optimization & Control](#optimization-control)** | **6** | Design optimization, adjoints, convex methods, system dynamics, and control. |
+| 🔬 **[Research Workflow](#research-workflow)** | **5** | Reproducibility, technical writing, data management, citation, and collaboration. |
+
 
 ## Resource library
 
-Each section can be expanded independently. Access labels reflect the information stored in [`data/resources.json`](data/resources.json).
+> [!TIP]
+> Expand only the categories you need. **⭐** marks a recommended starting point, while `tags` help you quickly identify the main focus of each resource.
 
 <!-- RESOURCE_LIBRARY_START -->
 
 <a id="programming-tools"></a>
 <details>
-<summary><strong>🧰 Programming & Tools</strong> — 8 resources</summary>
+<summary><strong>🧰 Programming & Tools</strong> &nbsp;·&nbsp; 8 resources &nbsp;·&nbsp; 7 beginner / 1 intermediate / 0 advanced</summary>
 
-Scientific programming, version control, Linux, debugging, and developer workflows.
+> Scientific programming, Git, Linux, debugging, and reproducible developer workflows.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)** ⭐ | Beginner | Course | ✅ Free | Practical command-line, shell, Git, editor, debugging, and automation skills that engineering courses often assume. |
-| **[Learn Git Branching](https://learngitbranching.js.org/)** | Beginner | Interactive | ✅ Free | A visual, browser-based way to practice commits, branches, merging, rebasing, and remote workflows. |
-| **[Pro Git](https://git-scm.com/book/en/v2)** | Intermediate | Book | ✅ Free | The comprehensive reference for Git concepts, collaboration patterns, internals, and advanced workflows. |
-| **[Official Python Tutorial](https://docs.python.org/3/tutorial/)** | Beginner | Documentation | ✅ Free | A direct introduction to Python syntax, data structures, modules, classes, errors, and standard-library fundamentals. |
-| **[LearnCpp](https://www.learncpp.com/)** | Beginner | Tutorial | ✅ Free | A structured path through modern C++ for students preparing for simulation software and high-performance computing. |
-| **[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)** | Beginner | Interactive | ✅ Free | A short interactive introduction to MATLAB arrays, scripts, plotting, data import, and basic programming. |
-| **[Visual Studio Code Documentation](https://code.visualstudio.com/docs)** | Beginner | Documentation | ✅ Free | Setup and workflow guidance for editing, debugging, remote development, notebooks, terminals, and extensions. |
-| **[Project Jupyter](https://jupyter.org/try)** | Beginner | Interactive | ✅ Free | Try notebook-based scientific computing in the browser and learn reproducible computational narratives. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)** ⭐<br><sub>Practical command-line, shell, Git, editor, debugging, and automation skills that engineering courses often assume.</sub> | `shell` · `git` · `debugging` · `automation` | **Beginner** | Course | ✅ Free |
+| **[Learn Git Branching](https://learngitbranching.js.org/)**<br><sub>A visual, browser-based way to practice commits, branches, merging, rebasing, and remote workflows.</sub> | `git` · `version-control` | **Beginner** | Interactive | ✅ Free |
+| **[Pro Git](https://git-scm.com/book/en/v2)**<br><sub>The comprehensive reference for Git concepts, collaboration patterns, internals, and advanced workflows.</sub> | `git` · `collaboration` · `reference` | **Intermediate** | Book | ✅ Free |
+| **[Official Python Tutorial](https://docs.python.org/3/tutorial/)**<br><sub>A direct introduction to Python syntax, data structures, modules, classes, errors, and standard-library fundamentals.</sub> | `python` · `programming` | **Beginner** | Documentation | ✅ Free |
+| **[LearnCpp](https://www.learncpp.com/)**<br><sub>A structured path through modern C++ for students preparing for simulation software and high-performance computing.</sub> | `cpp` · `programming` | **Beginner** | Tutorial | ✅ Free |
+| **[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)**<br><sub>A short interactive introduction to MATLAB arrays, scripts, plotting, data import, and basic programming.</sub> | `matlab` · `data-analysis` | **Beginner** | Interactive | ✅ Free |
+| **[Visual Studio Code Documentation](https://code.visualstudio.com/docs)**<br><sub>Setup and workflow guidance for editing, debugging, remote development, notebooks, terminals, and extensions.</sub> | `ide` · `debugging` · `remote-development` | **Beginner** | Documentation | ✅ Free |
+| **[Project Jupyter](https://jupyter.org/try)**<br><sub>Try notebook-based scientific computing in the browser and learn reproducible computational narratives.</sub> | `jupyter` · `notebooks` · `reproducibility` | **Beginner** | Interactive | ✅ Free |
 
 </details>
 
 <a id="numerical-methods"></a>
 <details>
-<summary><strong>🔢 Numerical Methods</strong> — 4 resources</summary>
+<summary><strong>🔢 Numerical Methods</strong> &nbsp;·&nbsp; 4 resources &nbsp;·&nbsp; 1 beginner / 2 intermediate / 1 advanced</summary>
 
-Algorithms for solving equations, ODEs, PDEs, interpolation, integration, and numerical error.
+> Algorithms for equations, ODEs, PDEs, integration, interpolation, and error analysis.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[Python Programming and Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)** ⭐ | Beginner | Book | ✅ Free | Engineering-oriented Python examples covering numerical differentiation, integration, roots, linear algebra, and differential equations. |
-| **[Fundamentals of Numerical Computation](https://fncbook.com/)** ⭐ | Intermediate | Book | ✅ Free | An open text combining numerical analysis, computational experiments, and implementations in multiple languages. |
-| **[Numerical Recipes Code Resources](https://numerical.recipes/)** | Advanced | Reference | ◐ Mixed/Paid | A broad map of classical numerical algorithms and implementation patterns for scientific applications. |
-| **[SciPy Lecture Notes](https://scipy-lectures.org/)** | Intermediate | Course | ✅ Free | A practical scientific Python curriculum using NumPy, SciPy, Matplotlib, image processing, and optimization. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[Python Programming and Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)** ⭐<br><sub>Engineering-oriented Python examples covering numerical differentiation, integration, roots, linear algebra, and differential equations.</sub> | `python` · `numerical-methods` · `engineering` | **Beginner** | Book | ✅ Free |
+| **[Fundamentals of Numerical Computation](https://fncbook.com/)** ⭐<br><sub>An open text combining numerical analysis, computational experiments, and implementations in multiple languages.</sub> | `numerical-analysis` · `linear-algebra` · `ode` · `pde` | **Intermediate** | Book | ✅ Free |
+| **[Numerical Recipes Code Resources](https://numerical.recipes/)**<br><sub>A broad map of classical numerical algorithms and implementation patterns for scientific applications.</sub> | `algorithms` · `reference` · `scientific-computing` | **Advanced** | Reference | ◐ Mixed |
+| **[SciPy Lecture Notes](https://scipy-lectures.org/)**<br><sub>A practical scientific Python curriculum using NumPy, SciPy, Matplotlib, image processing, and optimization.</sub> | `python` · `numpy` · `scipy` · `visualization` | **Intermediate** | Course | ✅ Free |
 
 </details>
 
 <a id="mathematics"></a>
 <details>
-<summary><strong>📐 Mathematics</strong> — 6 resources</summary>
+<summary><strong>📐 Mathematics</strong> &nbsp;·&nbsp; 6 resources &nbsp;·&nbsp; 4 beginner / 2 intermediate / 0 advanced</summary>
 
-Calculus, linear algebra, differential equations, probability, and mathematical foundations.
+> Calculus, linear algebra, differential equations, probability, and mathematical foundations.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[Essence of Calculus](https://www.3blue1brown.com/topics/calculus)** ⭐ | Beginner | Video Series | ✅ Free | Visual intuition for derivatives, integrals, limits, Taylor series, and the fundamental theorem of calculus. |
-| **[Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)** ⭐ | Beginner | Video Series | ✅ Free | A geometric introduction to vectors, matrices, determinants, eigenvectors, and changes of basis. |
-| **[MIT 18.06 Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)** | Intermediate | Course | ✅ Free | Gilbert Strang's complete course on vector spaces, factorization, least squares, eigenvalues, and applications. |
-| **[Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/)** | Beginner | Book | ✅ Free | A freely available introduction to logic, sets, relations, functions, induction, and proof techniques. |
-| **[Seeing Theory](https://seeing-theory.brown.edu/)** | Beginner | Interactive | ✅ Free | Interactive visual explanations of probability, distributions, inference, regression, and Bayesian ideas. |
-| **[MIT Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/)** | Intermediate | Course | ✅ Free | A full course on ordinary differential equations, linear systems, Fourier methods, and modeling. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[Essence of Calculus](https://www.3blue1brown.com/topics/calculus)** ⭐<br><sub>Visual intuition for derivatives, integrals, limits, Taylor series, and the fundamental theorem of calculus.</sub> | `calculus` · `visual-learning` | **Beginner** | Video Series | ✅ Free |
+| **[Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)** ⭐<br><sub>A geometric introduction to vectors, matrices, determinants, eigenvectors, and changes of basis.</sub> | `linear-algebra` · `visual-learning` | **Beginner** | Video Series | ✅ Free |
+| **[MIT 18.06 Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)**<br><sub>Gilbert Strang's complete course on vector spaces, factorization, least squares, eigenvalues, and applications.</sub> | `linear-algebra` · `matrix-factorization` · `least-squares` | **Intermediate** | Course | ✅ Free |
+| **[Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/)**<br><sub>A freely available introduction to logic, sets, relations, functions, induction, and proof techniques.</sub> | `logic` · `proofs` · `discrete-math` | **Beginner** | Book | ✅ Free |
+| **[Seeing Theory](https://seeing-theory.brown.edu/)**<br><sub>Interactive visual explanations of probability, distributions, inference, regression, and Bayesian ideas.</sub> | `probability` · `statistics` · `interactive` | **Beginner** | Interactive | ✅ Free |
+| **[MIT Differential Equations](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/)**<br><sub>A full course on ordinary differential equations, linear systems, Fourier methods, and modeling.</sub> | `ode` · `fourier` · `dynamical-systems` | **Intermediate** | Course | ✅ Free |
 
 </details>
 
 <a id="physics-mechanics"></a>
 <details>
-<summary><strong>⚙️ Physics & Mechanics</strong> — 4 resources</summary>
+<summary><strong>⚙️ Physics & Mechanics</strong> &nbsp;·&nbsp; 4 resources &nbsp;·&nbsp; 2 beginner / 2 intermediate / 0 advanced</summary>
 
-Fluid dynamics, thermodynamics, statics, dynamics, and continuum-mechanics foundations.
+> Fluid dynamics, thermodynamics, statics, dynamics, and continuum mechanics.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[MIT Fluid Dynamics](https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/)** ⭐ | Intermediate | Course | ✅ Free | Core fluid dynamics topics including conservation laws, dimensional analysis, viscous flow, boundary layers, and waves. |
-| **[MIT Thermodynamics](https://ocw.mit.edu/courses/2-05-thermodynamics-fall-2013/)** | Intermediate | Course | ✅ Free | Engineering thermodynamics with property relations, cycles, entropy, equilibrium, and energy conversion. |
-| **[Engineering Statics](https://engineeringstatics.org/)** | Beginner | Book | ✅ Free | An open mechanics text covering force systems, equilibrium, structures, friction, and centroids. |
-| **[The Efficient Engineer: Stress and Strain](https://www.youtube.com/watch?v=KzZjcqj53o8)** | Beginner | Video | ✅ Free | A concise visual introduction to normal and shear stress, strain, constitutive behavior, and deformation. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[MIT Fluid Dynamics](https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/)** ⭐<br><sub>Core fluid dynamics topics including conservation laws, dimensional analysis, viscous flow, boundary layers, and waves.</sub> | `fluid-mechanics` · `conservation-laws` · `boundary-layers` | **Intermediate** | Course | ✅ Free |
+| **[MIT Thermodynamics](https://ocw.mit.edu/courses/2-05-thermodynamics-fall-2013/)**<br><sub>Engineering thermodynamics with property relations, cycles, entropy, equilibrium, and energy conversion.</sub> | `thermodynamics` · `energy` · `entropy` | **Intermediate** | Course | ✅ Free |
+| **[Engineering Statics](https://engineeringstatics.org/)**<br><sub>An open mechanics text covering force systems, equilibrium, structures, friction, and centroids.</sub> | `statics` · `mechanics` · `structures` | **Beginner** | Book | ✅ Free |
+| **[The Efficient Engineer: Stress and Strain](https://www.youtube.com/watch?v=KzZjcqj53o8)**<br><sub>A concise visual introduction to normal and shear stress, strain, constitutive behavior, and deformation.</sub> | `solid-mechanics` · `stress` · `strain` | **Beginner** | Video | ✅ Free |
 
 </details>
 
 <a id="cfd-fluid-mechanics"></a>
 <details>
-<summary><strong>🌊 CFD & Fluid Mechanics</strong> — 7 resources</summary>
+<summary><strong>🌊 CFD & Fluid Mechanics</strong> &nbsp;·&nbsp; 7 resources &nbsp;·&nbsp; 1 beginner / 4 intermediate / 2 advanced</summary>
 
-Finite-volume methods, CFD theory, OpenFOAM, SU2, verification, and turbulence modeling.
+> Finite-volume methods, solvers, meshing, turbulence modeling, and verification.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[CFD Direct: Notes on CFD](https://doc.cfd.direct/notes/cfd-general-principles/)** ⭐ | Intermediate | Notes | ✅ Free | A compact treatment of finite-volume discretization, transport equations, solution algorithms, and practical CFD principles. |
-| **[OpenFOAM Documentation](https://doc.openfoam.com/)** ⭐ | Intermediate | Documentation | ✅ Free | User guides, solver references, models, boundary conditions, meshing workflows, and tutorials for OpenFOAM. |
-| **[SU2 Documentation](https://su2code.github.io/docs/)** | Intermediate | Documentation | ✅ Free | Documentation and tutorials for open-source multiphysics simulation, CFD, adjoint methods, and design optimization. |
-| **[NASA Turbulence Modeling Resource](https://turbmodels.larc.nasa.gov/)** ⭐ | Advanced | Reference | ✅ Free | Verified equations, implementation notes, and benchmark cases for widely used RANS turbulence models. |
-| **[Gmsh Reference Manual](https://gmsh.info/doc/texinfo/gmsh.html)** | Intermediate | Documentation | ✅ Free | Geometry, mesh generation, scripting, field control, and API documentation for the Gmsh mesher. |
-| **[ParaView Tutorials](https://docs.paraview.org/en/latest/Tutorials/index.html)** | Beginner | Tutorial | ✅ Free | Guided post-processing workflows for filters, slices, streamlines, plots, animation, and parallel visualization. |
-| **[PyFR Documentation](https://pyfr.readthedocs.io/en/latest/)** | Advanced | Documentation | ✅ Free | High-order flux-reconstruction CFD workflows designed for modern CPUs, GPUs, and heterogeneous systems. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[CFD Direct: Notes on CFD](https://doc.cfd.direct/notes/cfd-general-principles/)** ⭐<br><sub>A compact treatment of finite-volume discretization, transport equations, solution algorithms, and practical CFD principles.</sub> | `cfd` · `finite-volume` · `discretization` | **Intermediate** | Notes | ✅ Free |
+| **[OpenFOAM Documentation](https://doc.openfoam.com/)** ⭐<br><sub>User guides, solver references, models, boundary conditions, meshing workflows, and tutorials for OpenFOAM.</sub> | `openfoam` · `cfd` · `meshing` | **Intermediate** | Documentation | ✅ Free |
+| **[SU2 Documentation](https://su2code.github.io/docs/)**<br><sub>Documentation and tutorials for open-source multiphysics simulation, CFD, adjoint methods, and design optimization.</sub> | `su2` · `cfd` · `adjoint` · `optimization` | **Intermediate** | Documentation | ✅ Free |
+| **[NASA Turbulence Modeling Resource](https://turbmodels.larc.nasa.gov/)** ⭐<br><sub>Verified equations, implementation notes, and benchmark cases for widely used RANS turbulence models.</sub> | `turbulence` · `rans` · `verification` | **Advanced** | Reference | ✅ Free |
+| **[Gmsh Reference Manual](https://gmsh.info/doc/texinfo/gmsh.html)**<br><sub>Geometry, mesh generation, scripting, field control, and API documentation for the Gmsh mesher.</sub> | `meshing` · `gmsh` · `geometry` | **Intermediate** | Documentation | ✅ Free |
+| **[ParaView Tutorials](https://docs.paraview.org/en/latest/Tutorials/index.html)**<br><sub>Guided post-processing workflows for filters, slices, streamlines, plots, animation, and parallel visualization.</sub> | `paraview` · `post-processing` · `visualization` | **Beginner** | Tutorial | ✅ Free |
+| **[PyFR Documentation](https://pyfr.readthedocs.io/en/latest/)**<br><sub>High-order flux-reconstruction CFD workflows designed for modern CPUs, GPUs, and heterogeneous systems.</sub> | `high-order` · `gpu` · `cfd` | **Advanced** | Documentation | ✅ Free |
 
 </details>
 
 <a id="fea-solid-mechanics"></a>
 <details>
-<summary><strong>🏗️ FEA & Solid Mechanics</strong> — 4 resources</summary>
+<summary><strong>🏗️ FEA & Solid Mechanics</strong> &nbsp;·&nbsp; 4 resources &nbsp;·&nbsp; 0 beginner / 2 intermediate / 2 advanced</summary>
 
-Finite-element methods, structural mechanics, open-source solvers, and practical tutorials.
+> Finite-element theory, structural simulation, open-source frameworks, and examples.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[FEniCSx Tutorial](https://jsdokken.com/dolfinx-tutorial/)** ⭐ | Intermediate | Tutorial | ✅ Free | Hands-on finite-element examples using DOLFINx, UFL, meshes, boundary conditions, solvers, and parallel execution. |
-| **[deal.II Tutorial Programs](https://www.dealii.org/current/doxygen/deal.II/Tutorial.html)** | Advanced | Tutorial | ✅ Free | Progressive C++ examples for finite-element discretization, adaptivity, multiphysics, and scalable solvers. |
-| **[MFEM Examples](https://mfem.org/examples/)** | Advanced | Examples | ✅ Free | Compact examples of high-order finite-element methods, parallel meshes, solvers, and multiphysics applications. |
-| **[SfePy Documentation](https://sfepy.org/doc-devel/index.html)** | Intermediate | Documentation | ✅ Free | Python-based finite-element modeling for coupled PDEs, materials, boundary conditions, and custom weak forms. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[FEniCSx Tutorial](https://jsdokken.com/dolfinx-tutorial/)** ⭐<br><sub>Hands-on finite-element examples using DOLFINx, UFL, meshes, boundary conditions, solvers, and parallel execution.</sub> | `fenicsx` · `finite-element` · `pde` | **Intermediate** | Tutorial | ✅ Free |
+| **[deal.II Tutorial Programs](https://www.dealii.org/current/doxygen/deal.II/Tutorial.html)**<br><sub>Progressive C++ examples for finite-element discretization, adaptivity, multiphysics, and scalable solvers.</sub> | `dealii` · `cpp` · `finite-element` · `adaptivity` | **Advanced** | Tutorial | ✅ Free |
+| **[MFEM Examples](https://mfem.org/examples/)**<br><sub>Compact examples of high-order finite-element methods, parallel meshes, solvers, and multiphysics applications.</sub> | `mfem` · `finite-element` · `high-order` · `parallel` | **Advanced** | Examples | ✅ Free |
+| **[SfePy Documentation](https://sfepy.org/doc-devel/index.html)**<br><sub>Python-based finite-element modeling for coupled PDEs, materials, boundary conditions, and custom weak forms.</sub> | `python` · `finite-element` · `multiphysics` | **Intermediate** | Documentation | ✅ Free |
 
 </details>
 
 <a id="hpc-parallel-computing"></a>
 <details>
-<summary><strong>🚀 HPC & Parallel Computing</strong> — 6 resources</summary>
+<summary><strong>🚀 HPC & Parallel Computing</strong> &nbsp;·&nbsp; 6 resources &nbsp;·&nbsp; 0 beginner / 3 intermediate / 3 advanced</summary>
 
-MPI, OpenMP, GPU programming, performance engineering, and scalable scientific computing.
+> MPI, OpenMP, GPU programming, performance engineering, and scalable solvers.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[LLNL HPC Tutorials](https://hpc-tutorials.llnl.gov/)** ⭐ | Intermediate | Course | ✅ Free | Practical tutorials on MPI, OpenMP, pthreads, GPU programming, performance analysis, and parallel design. |
-| **[MPI Tutorial](https://mpitutorial.com/tutorials/)** | Intermediate | Tutorial | ✅ Free | An approachable sequence covering point-to-point communication, collectives, groups, communicators, and examples. |
-| **[OpenMP Tutorials and Articles](https://www.openmp.org/resources/tutorials-articles/)** | Intermediate | Tutorial | ✅ Free | Official learning resources for shared-memory parallelism, directives, tasks, offloading, and performance. |
-| **[CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)** | Advanced | Documentation | ✅ Free | The core reference for CUDA execution, memory models, kernels, synchronization, optimization, and GPU features. |
-| **[PETSc Documentation](https://petsc.org/release/)** ⭐ | Advanced | Documentation | ✅ Free | Scalable linear and nonlinear solvers, time integrators, optimization tools, and preconditioners for PDE applications. |
-| **[Kokkos Core Documentation](https://kokkos.org/kokkos-core-wiki/)** | Advanced | Documentation | ✅ Free | Performance-portable C++ abstractions for parallel execution and memory across CPUs and GPUs. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[LLNL HPC Tutorials](https://hpc-tutorials.llnl.gov/)** ⭐<br><sub>Practical tutorials on MPI, OpenMP, pthreads, GPU programming, performance analysis, and parallel design.</sub> | `hpc` · `mpi` · `openmp` · `gpu` | **Intermediate** | Course | ✅ Free |
+| **[MPI Tutorial](https://mpitutorial.com/tutorials/)**<br><sub>An approachable sequence covering point-to-point communication, collectives, groups, communicators, and examples.</sub> | `mpi` · `distributed-computing` | **Intermediate** | Tutorial | ✅ Free |
+| **[OpenMP Tutorials and Articles](https://www.openmp.org/resources/tutorials-articles/)**<br><sub>Official learning resources for shared-memory parallelism, directives, tasks, offloading, and performance.</sub> | `openmp` · `shared-memory` · `parallel` | **Intermediate** | Tutorial | ✅ Free |
+| **[CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)**<br><sub>The core reference for CUDA execution, memory models, kernels, synchronization, optimization, and GPU features.</sub> | `cuda` · `gpu` · `cpp` | **Advanced** | Documentation | ✅ Free |
+| **[PETSc Documentation](https://petsc.org/release/)** ⭐<br><sub>Scalable linear and nonlinear solvers, time integrators, optimization tools, and preconditioners for PDE applications.</sub> | `petsc` · `linear-solvers` · `nonlinear-solvers` · `mpi` | **Advanced** | Documentation | ✅ Free |
+| **[Kokkos Core Documentation](https://kokkos.org/kokkos-core-wiki/)**<br><sub>Performance-portable C++ abstractions for parallel execution and memory across CPUs and GPUs.</sub> | `kokkos` · `performance-portability` · `cpp` | **Advanced** | Documentation | ✅ Free |
 
 </details>
 
 <a id="data-ml-scientific-ai"></a>
 <details>
-<summary><strong>🧠 Data, ML & Scientific AI</strong> — 8 resources</summary>
+<summary><strong>🧠 Data, ML & Scientific AI</strong> &nbsp;·&nbsp; 8 resources &nbsp;·&nbsp; 1 beginner / 3 intermediate / 4 advanced</summary>
 
-Scientific Python, machine learning, differentiable computing, PINNs, and operator learning.
+> Scientific Python, machine learning, PINNs, operator learning, and reduced-order models.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[NumPy Learning Resources](https://numpy.org/learn/)** | Beginner | Tutorial | ✅ Free | Curated paths for array computing, vectorization, broadcasting, linear algebra, and scientific Python workflows. |
-| **[PyTorch Tutorials](https://docs.pytorch.org/tutorials/)** ⭐ | Intermediate | Tutorial | ✅ Free | Official tutorials for tensors, neural networks, data pipelines, training, deployment, and distributed learning. |
-| **[JAX Quickstart](https://docs.jax.dev/en/latest/notebooks/quickstart.html)** | Intermediate | Tutorial | ✅ Free | A compact introduction to accelerated NumPy-style computing, automatic differentiation, JIT compilation, and vectorization. |
-| **[Physics-based Deep Learning](https://physicsbaseddeeplearning.org/)** ⭐ | Advanced | Book | ✅ Free | A broad guide to combining numerical simulation, differentiable physics, surrogate modeling, and deep learning. |
-| **[NeuralOperator Documentation](https://neuraloperator.github.io/dev/)** | Advanced | Documentation | ✅ Free | Implementations and guides for Fourier neural operators and related operator-learning architectures. |
-| **[DeepXDE Documentation](https://deepxde.readthedocs.io/)** | Advanced | Documentation | ✅ Free | Physics-informed and operator-learning workflows for differential equations, inverse problems, and uncertainty. |
-| **[Data-Driven Science and Engineering](https://www.databookuw.com/)** ⭐ | Advanced | Book | ✅ Free | Resources on singular value decomposition, sparse modeling, dynamic mode decomposition, Koopman analysis, and control. |
-| **[CS229 Machine Learning Lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)** | Intermediate | Video Series | ✅ Free | A rigorous introduction to supervised learning, probabilistic models, kernels, neural networks, and learning theory. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[NumPy Learning Resources](https://numpy.org/learn/)**<br><sub>Curated paths for array computing, vectorization, broadcasting, linear algebra, and scientific Python workflows.</sub> | `numpy` · `python` · `arrays` | **Beginner** | Tutorial | ✅ Free |
+| **[PyTorch Tutorials](https://docs.pytorch.org/tutorials/)** ⭐<br><sub>Official tutorials for tensors, neural networks, data pipelines, training, deployment, and distributed learning.</sub> | `pytorch` · `deep-learning` · `python` | **Intermediate** | Tutorial | ✅ Free |
+| **[JAX Quickstart](https://docs.jax.dev/en/latest/notebooks/quickstart.html)**<br><sub>A compact introduction to accelerated NumPy-style computing, automatic differentiation, JIT compilation, and vectorization.</sub> | `jax` · `autodiff` · `gpu` · `scientific-ml` | **Intermediate** | Tutorial | ✅ Free |
+| **[Physics-based Deep Learning](https://physicsbaseddeeplearning.org/)** ⭐<br><sub>A broad guide to combining numerical simulation, differentiable physics, surrogate modeling, and deep learning.</sub> | `scientific-ml` · `differentiable-physics` · `surrogates` | **Advanced** | Book | ✅ Free |
+| **[NeuralOperator Documentation](https://neuraloperator.github.io/dev/)**<br><sub>Implementations and guides for Fourier neural operators and related operator-learning architectures.</sub> | `neural-operators` · `fno` · `surrogate-modeling` | **Advanced** | Documentation | ✅ Free |
+| **[DeepXDE Documentation](https://deepxde.readthedocs.io/)**<br><sub>Physics-informed and operator-learning workflows for differential equations, inverse problems, and uncertainty.</sub> | `pinn` · `inverse-problems` · `deep-learning` | **Advanced** | Documentation | ✅ Free |
+| **[Data-Driven Science and Engineering](https://www.databookuw.com/)** ⭐<br><sub>Resources on singular value decomposition, sparse modeling, dynamic mode decomposition, Koopman analysis, and control.</sub> | `dmd` · `koopman` · `rom` · `system-identification` | **Advanced** | Book | ✅ Free |
+| **[CS229 Machine Learning Lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)**<br><sub>A rigorous introduction to supervised learning, probabilistic models, kernels, neural networks, and learning theory.</sub> | `machine-learning` · `probability` · `optimization` | **Intermediate** | Video Series | ✅ Free |
 
 </details>
 
 <a id="optimization-control"></a>
 <details>
-<summary><strong>🎯 Optimization & Control</strong> — 6 resources</summary>
+<summary><strong>🎯 Optimization & Control</strong> &nbsp;·&nbsp; 6 resources &nbsp;·&nbsp; 0 beginner / 2 intermediate / 4 advanced</summary>
 
-Design optimization, convex methods, multidisciplinary optimization, and dynamical systems.
+> Design optimization, adjoints, convex methods, system dynamics, and control.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[Algorithms for Optimization](https://algorithmsbook.com/optimization/)** ⭐ | Intermediate | Book | ✅ Free | A readable introduction to derivative-based, derivative-free, stochastic, and constrained optimization methods. |
-| **[Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)** | Advanced | Book | ✅ Free | The standard open reference for convex sets, duality, optimality, numerical methods, and engineering applications. |
-| **[OpenMDAO Documentation](https://openmdao.org/newdocs/versions/latest/main.html)** ⭐ | Advanced | Documentation | ✅ Free | A framework for multidisciplinary analysis and optimization with derivatives, coupled systems, and scalable workflows. |
-| **[CasADi Documentation](https://web.casadi.org/docs/)** | Advanced | Documentation | ✅ Free | Symbolic-numeric tools for automatic differentiation, nonlinear optimization, and optimal control. |
-| **[Underactuated Robotics](https://underactuated.csail.mit.edu/)** | Advanced | Course | ✅ Free | Nonlinear dynamics, planning, estimation, and control through robotics examples and computational exercises. |
-| **[Python Control Systems Library](https://python-control.readthedocs.io/)** | Intermediate | Documentation | ✅ Free | Python tools for state-space models, transfer functions, frequency response, stability, estimation, and design. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[Algorithms for Optimization](https://algorithmsbook.com/optimization/)** ⭐<br><sub>A readable introduction to derivative-based, derivative-free, stochastic, and constrained optimization methods.</sub> | `optimization` · `algorithms` · `engineering-design` | **Intermediate** | Book | ✅ Free |
+| **[Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)**<br><sub>The standard open reference for convex sets, duality, optimality, numerical methods, and engineering applications.</sub> | `convex-optimization` · `duality` · `optimal-control` | **Advanced** | Book | ✅ Free |
+| **[OpenMDAO Documentation](https://openmdao.org/newdocs/versions/latest/main.html)** ⭐<br><sub>A framework for multidisciplinary analysis and optimization with derivatives, coupled systems, and scalable workflows.</sub> | `mdao` · `design-optimization` · `multidisciplinary` | **Advanced** | Documentation | ✅ Free |
+| **[CasADi Documentation](https://web.casadi.org/docs/)**<br><sub>Symbolic-numeric tools for automatic differentiation, nonlinear optimization, and optimal control.</sub> | `casadi` · `optimal-control` · `autodiff` | **Advanced** | Documentation | ✅ Free |
+| **[Underactuated Robotics](https://underactuated.csail.mit.edu/)**<br><sub>Nonlinear dynamics, planning, estimation, and control through robotics examples and computational exercises.</sub> | `control` · `robotics` · `dynamics` · `planning` | **Advanced** | Course | ✅ Free |
+| **[Python Control Systems Library](https://python-control.readthedocs.io/)**<br><sub>Python tools for state-space models, transfer functions, frequency response, stability, estimation, and design.</sub> | `control` · `python` · `state-space` | **Intermediate** | Documentation | ✅ Free |
 
 </details>
 
 <a id="research-workflow"></a>
 <details>
-<summary><strong>🔬 Research Workflow</strong> — 5 resources</summary>
+<summary><strong>🔬 Research Workflow</strong> &nbsp;·&nbsp; 5 resources &nbsp;·&nbsp; 5 beginner / 0 intermediate / 0 advanced</summary>
 
-Reproducibility, scientific writing, data management, citation, and collaborative research practice.
+> Reproducibility, technical writing, data management, citation, and collaboration.
 
-| Resource | Level | Format | Access | Description |
-|---|---|---|---|---|
-| **[The Turing Way](https://book.the-turing-way.org/)** ⭐ | Beginner | Handbook | ✅ Free | A community handbook for reproducible, ethical, collaborative, and inclusive data-intensive research. |
-| **[Software Carpentry Lessons](https://software-carpentry.org/lessons/)** | Beginner | Course | ✅ Free | Foundational lessons in shell use, version control, Python or R, and research-oriented data workflows. |
-| **[Overleaf Learn](https://www.overleaf.com/learn)** | Beginner | Documentation | ✅ Free | Practical guidance for LaTeX documents, equations, references, figures, tables, and collaborative writing. |
-| **[Zotero Documentation](https://www.zotero.org/support/)** | Beginner | Documentation | ✅ Free | Reference-management workflows for collecting papers, organizing libraries, annotating PDFs, and generating citations. |
-| **[GitHub Skills](https://skills.github.com/)** | Beginner | Interactive | ✅ Free | Short hands-on courses for repositories, pull requests, Actions, Pages, Markdown, and collaborative development. |
+| Resource | Focus | Level | Format | Access |
+|---|---|:---:|:---:|:---:|
+| **[The Turing Way](https://book.the-turing-way.org/)** ⭐<br><sub>A community handbook for reproducible, ethical, collaborative, and inclusive data-intensive research.</sub> | `reproducibility` · `open-science` · `collaboration` | **Beginner** | Handbook | ✅ Free |
+| **[Software Carpentry Lessons](https://software-carpentry.org/lessons/)**<br><sub>Foundational lessons in shell use, version control, Python or R, and research-oriented data workflows.</sub> | `research-computing` · `git` · `shell` · `python` | **Beginner** | Course | ✅ Free |
+| **[Overleaf Learn](https://www.overleaf.com/learn)**<br><sub>Practical guidance for LaTeX documents, equations, references, figures, tables, and collaborative writing.</sub> | `latex` · `academic-writing` · `collaboration` | **Beginner** | Documentation | ✅ Free |
+| **[Zotero Documentation](https://www.zotero.org/support/)**<br><sub>Reference-management workflows for collecting papers, organizing libraries, annotating PDFs, and generating citations.</sub> | `references` · `citations` · `literature-review` | **Beginner** | Documentation | ✅ Free |
+| **[GitHub Skills](https://skills.github.com/)**<br><sub>Short hands-on courses for repositories, pull requests, Actions, Pages, Markdown, and collaborative development.</sub> | `github` · `collaboration` · `ci-cd` | **Beginner** | Interactive | ✅ Free |
 
 </details>
-
 <!-- RESOURCE_LIBRARY_END -->
 
-## How resources are selected
+## Curation framework
 
-Resources are prioritized when they are authoritative, educational, technically relevant, legally accessible, and reasonably maintained. Official documentation, university courses, open textbooks, and primary educational sources are preferred.
+A resource is considered for inclusion when it is:
 
-See **[Resource Guidelines](docs/resource-guidelines.md)** for the full review criteria.
+| Criterion | What we look for |
+|---|---|
+| **Authoritative** | Official documentation, university courses, open textbooks, or primary educational sources |
+| **Technically useful** | Clear relevance to computational engineering practice or theory |
+| **Accessible** | Legal access, stable URLs, and minimal barriers to learning |
+| **Well maintained** | Current content or enduring foundational value |
+| **Actionable** | Tutorials, examples, exercises, documentation, or reproducible workflows |
+
+Read the complete criteria in [Resource Guidelines](docs/resource-guidelines.md).
+
+## Repository structure
+
+```text
+computational-engineering-resource-hub/
+├── README.md                         # Repository landing page and resource library
+├── data/
+│   └── resources.json                # Structured source of truth for all resources
+├── docs/
+│   ├── learning-roadmap.md           # Expanded learning roadmap
+│   └── resource-guidelines.md        # Curation and review standards
+├── assets/
+│   └── branding/                     # Light and dark README header artwork
+├── scripts/
+│   ├── generate_readme.py            # Rebuilds the resource tables from JSON
+│   └── validate_resources.py         # Validates fields, URLs, categories, and duplicates
+├── .github/
+│   ├── ISSUE_TEMPLATE/               # Structured resource suggestion form
+│   ├── workflows/                    # Link checking and dataset validation
+│   └── PULL_REQUEST_TEMPLATE.md
+├── CONTRIBUTING.md
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+└── LICENSE
+```
 
 ## Contributing
 
-New resources, corrections, and broken-link reports are welcome.
+Contributions are welcome through either a structured issue or a pull request.
 
-1. Open the **[resource suggestion form](https://github.com/islam-md-didarul/computational-engineering-resource-hub/issues/new?template=resource-suggestion.yml)**, or fork the repository.
-2. Add or update the entry in [`data/resources.json`](data/resources.json).
-3. Run the validation and README-generation scripts.
-4. Submit a pull request explaining the value of the change.
+1. Review the [resource guidelines](docs/resource-guidelines.md).
+2. Check that the resource is not already listed.
+3. Add the entry to [`data/resources.json`](data/resources.json).
+4. Run the validator and README generator.
+5. Submit a pull request with a concise reason for inclusion.
 
 ```bash
 python scripts/validate_resources.py
 python scripts/generate_readme.py
 ```
 
-Read **[CONTRIBUTING.md](CONTRIBUTING.md)** before submitting a pull request.
+[![Suggest a resource](https://img.shields.io/badge/Suggest_a_Resource-Open_Issue-1f883d?style=for-the-badge&logo=github)](https://github.com/islam-md-didarul/computational-engineering-resource-hub/issues/new?template=resource-suggestion.yml)
+[![Read contribution guide](https://img.shields.io/badge/Contribution_Guide-Read-0969da?style=for-the-badge&logo=git)](CONTRIBUTING.md)
+
+## Maintenance
+
+- `validate-resources.yml` checks the structured dataset whenever relevant files change.
+- `link-check.yml` checks external links on a schedule and after repository updates.
+- `scripts/generate_readme.py` keeps the visible library synchronized with `data/resources.json`.
+- Broken, duplicated, outdated, or misleading resources can be reported through GitHub Issues.
 
 ## Citation
 
-Use the repository’s **Cite this repository** menu or the metadata in [`CITATION.cff`](CITATION.cff).
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). GitHub can use this file to display a **Cite this repository** option.
 
 ## License
 
-Repository code and original documentation are released under the [MIT License](LICENSE). Linked external materials remain subject to the terms and licenses of their respective owners.
-
-## Acknowledgment
-
-This repository is an original GitHub-native implementation inspired by the category-based organization of [Computational Engineering Resources](https://yashj1579.github.io/blog/computational-engineering-resources/).
+Repository code and original documentation are released under the [MIT License](LICENSE). Linked resources remain subject to their respective owners' licenses and terms.
 
 ---
 
 <div align="center">
 
-**Maintained by [Md. Didarul Islam](https://github.com/islam-md-didarul)**
+**Built for students, engineers, and researchers who want a reliable path from equations to validated computation.**
 
-⭐ Star the repository if it supports your learning or research.
+[Back to top](#top) · [Browse resources](#resource-library) · [Contribute](CONTRIBUTING.md)
 
 </div>
