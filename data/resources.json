@@ -1,0 +1,877 @@
+[
+  {
+    "title": "The Missing Semester of Your CS Education",
+    "url": "https://missing.csail.mit.edu/",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Course",
+    "description": "Practical command-line, shell, Git, editor, debugging, and automation skills that engineering courses often assume.",
+    "tags": [
+      "shell",
+      "git",
+      "debugging",
+      "automation"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Learn Git Branching",
+    "url": "https://learngitbranching.js.org/",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Interactive",
+    "description": "A visual, browser-based way to practice commits, branches, merging, rebasing, and remote workflows.",
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Pro Git",
+    "url": "https://git-scm.com/book/en/v2",
+    "category": "Programming & Tools",
+    "level": "Intermediate",
+    "type": "Book",
+    "description": "The comprehensive reference for Git concepts, collaboration patterns, internals, and advanced workflows.",
+    "tags": [
+      "git",
+      "collaboration",
+      "reference"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Official Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Documentation",
+    "description": "A direct introduction to Python syntax, data structures, modules, classes, errors, and standard-library fundamentals.",
+    "tags": [
+      "python",
+      "programming"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "LearnCpp",
+    "url": "https://www.learncpp.com/",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Tutorial",
+    "description": "A structured path through modern C++ for students preparing for simulation software and high-performance computing.",
+    "tags": [
+      "cpp",
+      "programming"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "MATLAB Onramp",
+    "url": "https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Interactive",
+    "description": "A short interactive introduction to MATLAB arrays, scripts, plotting, data import, and basic programming.",
+    "tags": [
+      "matlab",
+      "data-analysis"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Visual Studio Code Documentation",
+    "url": "https://code.visualstudio.com/docs",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Documentation",
+    "description": "Setup and workflow guidance for editing, debugging, remote development, notebooks, terminals, and extensions.",
+    "tags": [
+      "ide",
+      "debugging",
+      "remote-development"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Project Jupyter",
+    "url": "https://jupyter.org/try",
+    "category": "Programming & Tools",
+    "level": "Beginner",
+    "type": "Interactive",
+    "description": "Try notebook-based scientific computing in the browser and learn reproducible computational narratives.",
+    "tags": [
+      "jupyter",
+      "notebooks",
+      "reproducibility"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Python Programming and Numerical Methods",
+    "url": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+    "category": "Numerical Methods",
+    "level": "Beginner",
+    "type": "Book",
+    "description": "Engineering-oriented Python examples covering numerical differentiation, integration, roots, linear algebra, and differential equations.",
+    "tags": [
+      "python",
+      "numerical-methods",
+      "engineering"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Fundamentals of Numerical Computation",
+    "url": "https://fncbook.com/",
+    "category": "Numerical Methods",
+    "level": "Intermediate",
+    "type": "Book",
+    "description": "An open text combining numerical analysis, computational experiments, and implementations in multiple languages.",
+    "tags": [
+      "numerical-analysis",
+      "linear-algebra",
+      "ode",
+      "pde"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Numerical Recipes Code Resources",
+    "url": "https://numerical.recipes/",
+    "category": "Numerical Methods",
+    "level": "Advanced",
+    "type": "Reference",
+    "description": "A broad map of classical numerical algorithms and implementation patterns for scientific applications.",
+    "tags": [
+      "algorithms",
+      "reference",
+      "scientific-computing"
+    ],
+    "featured": false,
+    "free": false
+  },
+  {
+    "title": "SciPy Lecture Notes",
+    "url": "https://scipy-lectures.org/",
+    "category": "Numerical Methods",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "A practical scientific Python curriculum using NumPy, SciPy, Matplotlib, image processing, and optimization.",
+    "tags": [
+      "python",
+      "numpy",
+      "scipy",
+      "visualization"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Essence of Calculus",
+    "url": "https://www.3blue1brown.com/topics/calculus",
+    "category": "Mathematics",
+    "level": "Beginner",
+    "type": "Video Series",
+    "description": "Visual intuition for derivatives, integrals, limits, Taylor series, and the fundamental theorem of calculus.",
+    "tags": [
+      "calculus",
+      "visual-learning"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Essence of Linear Algebra",
+    "url": "https://www.3blue1brown.com/topics/linear-algebra",
+    "category": "Mathematics",
+    "level": "Beginner",
+    "type": "Video Series",
+    "description": "A geometric introduction to vectors, matrices, determinants, eigenvectors, and changes of basis.",
+    "tags": [
+      "linear-algebra",
+      "visual-learning"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "MIT 18.06 Linear Algebra",
+    "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+    "category": "Mathematics",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "Gilbert Strang's complete course on vector spaces, factorization, least squares, eigenvalues, and applications.",
+    "tags": [
+      "linear-algebra",
+      "matrix-factorization",
+      "least-squares"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Book of Proof",
+    "url": "https://www.people.vcu.edu/~rhammack/BookOfProof/",
+    "category": "Mathematics",
+    "level": "Beginner",
+    "type": "Book",
+    "description": "A freely available introduction to logic, sets, relations, functions, induction, and proof techniques.",
+    "tags": [
+      "logic",
+      "proofs",
+      "discrete-math"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Seeing Theory",
+    "url": "https://seeing-theory.brown.edu/",
+    "category": "Mathematics",
+    "level": "Beginner",
+    "type": "Interactive",
+    "description": "Interactive visual explanations of probability, distributions, inference, regression, and Bayesian ideas.",
+    "tags": [
+      "probability",
+      "statistics",
+      "interactive"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "MIT Differential Equations",
+    "url": "https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/",
+    "category": "Mathematics",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "A full course on ordinary differential equations, linear systems, Fourier methods, and modeling.",
+    "tags": [
+      "ode",
+      "fourier",
+      "dynamical-systems"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "MIT Fluid Dynamics",
+    "url": "https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/",
+    "category": "Physics & Mechanics",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "Core fluid dynamics topics including conservation laws, dimensional analysis, viscous flow, boundary layers, and waves.",
+    "tags": [
+      "fluid-mechanics",
+      "conservation-laws",
+      "boundary-layers"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "MIT Thermodynamics",
+    "url": "https://ocw.mit.edu/courses/2-05-thermodynamics-fall-2013/",
+    "category": "Physics & Mechanics",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "Engineering thermodynamics with property relations, cycles, entropy, equilibrium, and energy conversion.",
+    "tags": [
+      "thermodynamics",
+      "energy",
+      "entropy"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Engineering Statics",
+    "url": "https://engineeringstatics.org/",
+    "category": "Physics & Mechanics",
+    "level": "Beginner",
+    "type": "Book",
+    "description": "An open mechanics text covering force systems, equilibrium, structures, friction, and centroids.",
+    "tags": [
+      "statics",
+      "mechanics",
+      "structures"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "The Efficient Engineer: Stress and Strain",
+    "url": "https://www.youtube.com/watch?v=KzZjcqj53o8",
+    "category": "Physics & Mechanics",
+    "level": "Beginner",
+    "type": "Video",
+    "description": "A concise visual introduction to normal and shear stress, strain, constitutive behavior, and deformation.",
+    "tags": [
+      "solid-mechanics",
+      "stress",
+      "strain"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "CFD Direct: Notes on CFD",
+    "url": "https://doc.cfd.direct/notes/cfd-general-principles/",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Intermediate",
+    "type": "Notes",
+    "description": "A compact treatment of finite-volume discretization, transport equations, solution algorithms, and practical CFD principles.",
+    "tags": [
+      "cfd",
+      "finite-volume",
+      "discretization"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "OpenFOAM Documentation",
+    "url": "https://doc.openfoam.com/",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Intermediate",
+    "type": "Documentation",
+    "description": "User guides, solver references, models, boundary conditions, meshing workflows, and tutorials for OpenFOAM.",
+    "tags": [
+      "openfoam",
+      "cfd",
+      "meshing"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "SU2 Documentation",
+    "url": "https://su2code.github.io/docs/",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Intermediate",
+    "type": "Documentation",
+    "description": "Documentation and tutorials for open-source multiphysics simulation, CFD, adjoint methods, and design optimization.",
+    "tags": [
+      "su2",
+      "cfd",
+      "adjoint",
+      "optimization"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "NASA Turbulence Modeling Resource",
+    "url": "https://turbmodels.larc.nasa.gov/",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Advanced",
+    "type": "Reference",
+    "description": "Verified equations, implementation notes, and benchmark cases for widely used RANS turbulence models.",
+    "tags": [
+      "turbulence",
+      "rans",
+      "verification"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Gmsh Reference Manual",
+    "url": "https://gmsh.info/doc/texinfo/gmsh.html",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Intermediate",
+    "type": "Documentation",
+    "description": "Geometry, mesh generation, scripting, field control, and API documentation for the Gmsh mesher.",
+    "tags": [
+      "meshing",
+      "gmsh",
+      "geometry"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "ParaView Tutorials",
+    "url": "https://docs.paraview.org/en/latest/Tutorials/index.html",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Beginner",
+    "type": "Tutorial",
+    "description": "Guided post-processing workflows for filters, slices, streamlines, plots, animation, and parallel visualization.",
+    "tags": [
+      "paraview",
+      "post-processing",
+      "visualization"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "PyFR Documentation",
+    "url": "https://pyfr.readthedocs.io/en/latest/",
+    "category": "CFD & Fluid Mechanics",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "High-order flux-reconstruction CFD workflows designed for modern CPUs, GPUs, and heterogeneous systems.",
+    "tags": [
+      "high-order",
+      "gpu",
+      "cfd"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "FEniCSx Tutorial",
+    "url": "https://jsdokken.com/dolfinx-tutorial/",
+    "category": "FEA & Solid Mechanics",
+    "level": "Intermediate",
+    "type": "Tutorial",
+    "description": "Hands-on finite-element examples using DOLFINx, UFL, meshes, boundary conditions, solvers, and parallel execution.",
+    "tags": [
+      "fenicsx",
+      "finite-element",
+      "pde"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "deal.II Tutorial Programs",
+    "url": "https://www.dealii.org/current/doxygen/deal.II/Tutorial.html",
+    "category": "FEA & Solid Mechanics",
+    "level": "Advanced",
+    "type": "Tutorial",
+    "description": "Progressive C++ examples for finite-element discretization, adaptivity, multiphysics, and scalable solvers.",
+    "tags": [
+      "dealii",
+      "cpp",
+      "finite-element",
+      "adaptivity"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "MFEM Examples",
+    "url": "https://mfem.org/examples/",
+    "category": "FEA & Solid Mechanics",
+    "level": "Advanced",
+    "type": "Examples",
+    "description": "Compact examples of high-order finite-element methods, parallel meshes, solvers, and multiphysics applications.",
+    "tags": [
+      "mfem",
+      "finite-element",
+      "high-order",
+      "parallel"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "SfePy Documentation",
+    "url": "https://sfepy.org/doc-devel/index.html",
+    "category": "FEA & Solid Mechanics",
+    "level": "Intermediate",
+    "type": "Documentation",
+    "description": "Python-based finite-element modeling for coupled PDEs, materials, boundary conditions, and custom weak forms.",
+    "tags": [
+      "python",
+      "finite-element",
+      "multiphysics"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "LLNL HPC Tutorials",
+    "url": "https://hpc-tutorials.llnl.gov/",
+    "category": "HPC & Parallel Computing",
+    "level": "Intermediate",
+    "type": "Course",
+    "description": "Practical tutorials on MPI, OpenMP, pthreads, GPU programming, performance analysis, and parallel design.",
+    "tags": [
+      "hpc",
+      "mpi",
+      "openmp",
+      "gpu"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "MPI Tutorial",
+    "url": "https://mpitutorial.com/tutorials/",
+    "category": "HPC & Parallel Computing",
+    "level": "Intermediate",
+    "type": "Tutorial",
+    "description": "An approachable sequence covering point-to-point communication, collectives, groups, communicators, and examples.",
+    "tags": [
+      "mpi",
+      "distributed-computing"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "OpenMP Tutorials and Articles",
+    "url": "https://www.openmp.org/resources/tutorials-articles/",
+    "category": "HPC & Parallel Computing",
+    "level": "Intermediate",
+    "type": "Tutorial",
+    "description": "Official learning resources for shared-memory parallelism, directives, tasks, offloading, and performance.",
+    "tags": [
+      "openmp",
+      "shared-memory",
+      "parallel"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "CUDA C++ Programming Guide",
+    "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+    "category": "HPC & Parallel Computing",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "The core reference for CUDA execution, memory models, kernels, synchronization, optimization, and GPU features.",
+    "tags": [
+      "cuda",
+      "gpu",
+      "cpp"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "PETSc Documentation",
+    "url": "https://petsc.org/release/",
+    "category": "HPC & Parallel Computing",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "Scalable linear and nonlinear solvers, time integrators, optimization tools, and preconditioners for PDE applications.",
+    "tags": [
+      "petsc",
+      "linear-solvers",
+      "nonlinear-solvers",
+      "mpi"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Kokkos Core Documentation",
+    "url": "https://kokkos.org/kokkos-core-wiki/",
+    "category": "HPC & Parallel Computing",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "Performance-portable C++ abstractions for parallel execution and memory across CPUs and GPUs.",
+    "tags": [
+      "kokkos",
+      "performance-portability",
+      "cpp"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "NumPy Learning Resources",
+    "url": "https://numpy.org/learn/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Beginner",
+    "type": "Tutorial",
+    "description": "Curated paths for array computing, vectorization, broadcasting, linear algebra, and scientific Python workflows.",
+    "tags": [
+      "numpy",
+      "python",
+      "arrays"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "PyTorch Tutorials",
+    "url": "https://docs.pytorch.org/tutorials/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Intermediate",
+    "type": "Tutorial",
+    "description": "Official tutorials for tensors, neural networks, data pipelines, training, deployment, and distributed learning.",
+    "tags": [
+      "pytorch",
+      "deep-learning",
+      "python"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "JAX Quickstart",
+    "url": "https://docs.jax.dev/en/latest/notebooks/quickstart.html",
+    "category": "Data, ML & Scientific AI",
+    "level": "Intermediate",
+    "type": "Tutorial",
+    "description": "A compact introduction to accelerated NumPy-style computing, automatic differentiation, JIT compilation, and vectorization.",
+    "tags": [
+      "jax",
+      "autodiff",
+      "gpu",
+      "scientific-ml"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Physics-based Deep Learning",
+    "url": "https://physicsbaseddeeplearning.org/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Advanced",
+    "type": "Book",
+    "description": "A broad guide to combining numerical simulation, differentiable physics, surrogate modeling, and deep learning.",
+    "tags": [
+      "scientific-ml",
+      "differentiable-physics",
+      "surrogates"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "NeuralOperator Documentation",
+    "url": "https://neuraloperator.github.io/dev/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "Implementations and guides for Fourier neural operators and related operator-learning architectures.",
+    "tags": [
+      "neural-operators",
+      "fno",
+      "surrogate-modeling"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "DeepXDE Documentation",
+    "url": "https://deepxde.readthedocs.io/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "Physics-informed and operator-learning workflows for differential equations, inverse problems, and uncertainty.",
+    "tags": [
+      "pinn",
+      "inverse-problems",
+      "deep-learning"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Data-Driven Science and Engineering",
+    "url": "https://www.databookuw.com/",
+    "category": "Data, ML & Scientific AI",
+    "level": "Advanced",
+    "type": "Book",
+    "description": "Resources on singular value decomposition, sparse modeling, dynamic mode decomposition, Koopman analysis, and control.",
+    "tags": [
+      "dmd",
+      "koopman",
+      "rom",
+      "system-identification"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "CS229 Machine Learning Lectures",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+    "category": "Data, ML & Scientific AI",
+    "level": "Intermediate",
+    "type": "Video Series",
+    "description": "A rigorous introduction to supervised learning, probabilistic models, kernels, neural networks, and learning theory.",
+    "tags": [
+      "machine-learning",
+      "probability",
+      "optimization"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Algorithms for Optimization",
+    "url": "https://algorithmsbook.com/optimization/",
+    "category": "Optimization & Control",
+    "level": "Intermediate",
+    "type": "Book",
+    "description": "A readable introduction to derivative-based, derivative-free, stochastic, and constrained optimization methods.",
+    "tags": [
+      "optimization",
+      "algorithms",
+      "engineering-design"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Convex Optimization",
+    "url": "https://web.stanford.edu/~boyd/cvxbook/",
+    "category": "Optimization & Control",
+    "level": "Advanced",
+    "type": "Book",
+    "description": "The standard open reference for convex sets, duality, optimality, numerical methods, and engineering applications.",
+    "tags": [
+      "convex-optimization",
+      "duality",
+      "optimal-control"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "OpenMDAO Documentation",
+    "url": "https://openmdao.org/newdocs/versions/latest/main.html",
+    "category": "Optimization & Control",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "A framework for multidisciplinary analysis and optimization with derivatives, coupled systems, and scalable workflows.",
+    "tags": [
+      "mdao",
+      "design-optimization",
+      "multidisciplinary"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "CasADi Documentation",
+    "url": "https://web.casadi.org/docs/",
+    "category": "Optimization & Control",
+    "level": "Advanced",
+    "type": "Documentation",
+    "description": "Symbolic-numeric tools for automatic differentiation, nonlinear optimization, and optimal control.",
+    "tags": [
+      "casadi",
+      "optimal-control",
+      "autodiff"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Underactuated Robotics",
+    "url": "https://underactuated.csail.mit.edu/",
+    "category": "Optimization & Control",
+    "level": "Advanced",
+    "type": "Course",
+    "description": "Nonlinear dynamics, planning, estimation, and control through robotics examples and computational exercises.",
+    "tags": [
+      "control",
+      "robotics",
+      "dynamics",
+      "planning"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Python Control Systems Library",
+    "url": "https://python-control.readthedocs.io/",
+    "category": "Optimization & Control",
+    "level": "Intermediate",
+    "type": "Documentation",
+    "description": "Python tools for state-space models, transfer functions, frequency response, stability, estimation, and design.",
+    "tags": [
+      "control",
+      "python",
+      "state-space"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "The Turing Way",
+    "url": "https://book.the-turing-way.org/",
+    "category": "Research Workflow",
+    "level": "Beginner",
+    "type": "Handbook",
+    "description": "A community handbook for reproducible, ethical, collaborative, and inclusive data-intensive research.",
+    "tags": [
+      "reproducibility",
+      "open-science",
+      "collaboration"
+    ],
+    "featured": true,
+    "free": true
+  },
+  {
+    "title": "Software Carpentry Lessons",
+    "url": "https://software-carpentry.org/lessons/",
+    "category": "Research Workflow",
+    "level": "Beginner",
+    "type": "Course",
+    "description": "Foundational lessons in shell use, version control, Python or R, and research-oriented data workflows.",
+    "tags": [
+      "research-computing",
+      "git",
+      "shell",
+      "python"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Overleaf Learn",
+    "url": "https://www.overleaf.com/learn",
+    "category": "Research Workflow",
+    "level": "Beginner",
+    "type": "Documentation",
+    "description": "Practical guidance for LaTeX documents, equations, references, figures, tables, and collaborative writing.",
+    "tags": [
+      "latex",
+      "academic-writing",
+      "collaboration"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "Zotero Documentation",
+    "url": "https://www.zotero.org/support/",
+    "category": "Research Workflow",
+    "level": "Beginner",
+    "type": "Documentation",
+    "description": "Reference-management workflows for collecting papers, organizing libraries, annotating PDFs, and generating citations.",
+    "tags": [
+      "references",
+      "citations",
+      "literature-review"
+    ],
+    "featured": false,
+    "free": true
+  },
+  {
+    "title": "GitHub Skills",
+    "url": "https://skills.github.com/",
+    "category": "Research Workflow",
+    "level": "Beginner",
+    "type": "Interactive",
+    "description": "Short hands-on courses for repositories, pull requests, Actions, Pages, Markdown, and collaborative development.",
+    "tags": [
+      "github",
+      "collaboration",
+      "ci-cd"
+    ],
+    "featured": false,
+    "free": true
+  }
+]

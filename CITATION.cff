@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Computational Engineering Resource Hub
+message: If this repository supports your teaching or research, please cite the repository release.
+type: dataset
+authors:
+  - family-names: Islam
+    given-names: Md. Didarul
+repository-code: https://github.com/islam-md-didarul/computational-engineering-resource-hub
+url: https://github.com/islam-md-didarul/computational-engineering-resource-hub
+license: MIT
+date-released: 2026-07-19
