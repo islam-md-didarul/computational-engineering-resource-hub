@@ -42,7 +42,7 @@
 |---|---|---|
 | **🧱 Foundations** | [Programming](#programming-tools) → [Mathematics](#mathematics) → [Numerical Methods](#numerical-methods) | Students beginning computational engineering |
 | **🌊 Simulation & CFD** | [Physics](#physics-mechanics) → [Numerical Methods](#numerical-methods) → [CFD](#cfd-fluid-mechanics) → [HPC](#hpc-parallel-computing) | CFD analysts and fluid-mechanics researchers |
-| **🏗️ Structures & Multiphysics** | [Mathematics](#mathematics) → [FEA](#fea-solid-mechanics) → [HPC](#hpc-parallel-computing) → [Optimization](#optimization-control) | Structural, solid-mechanics, and multiphysics learners |
+| **🏗️ Structures & Multiphysics** | [Mathematics](#mathematics) → [FEA](#fea-solid-mechanics) → [HPC](#hpc-parallel-computing) → [Optimization](#optimization-control) | Structural, solid-mechanics and multiphysics learners |
 | **🧠 Scientific AI** | [Programming](#programming-tools) → [Numerical Methods](#numerical-methods) → [Data & ML](#data-ml-scientific-ai) → [Research Workflow](#research-workflow) | Researchers combining simulation with ML/ROM methods |
 
 ## Learning roadmap
@@ -65,7 +65,7 @@ flowchart LR
 |:---:|---|---|
 | **01** | Scientific programming, shell, Git, plotting | A reproducible repository that reads data and produces a figure |
 | **02** | Calculus, linear algebra, ODEs, probability | A notebook explaining and implementing one mathematical model |
-| **03** | Discretization, solvers, stability, convergence | A verified diffusion, advection, Poisson, or ODE solver |
+| **03** | Discretization, solvers, stability, convergence | A verified diffusion, advection, Poisson or ODE solver |
 | **04** | CFD, FEA, heat transfer, or multiphysics | Reproduction of a published benchmark with mesh/time-step evidence |
 | **05** | Profiling, MPI/OpenMP/GPU, scalable solvers | A documented speedup or scaling study |
 | **06** | Optimization, ROM, PINNs, operator learning | Comparison against a trusted numerical baseline |
@@ -79,11 +79,11 @@ flowchart LR
 |---|---|---|
 | **Computing workflow** | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | Practical shell, Git, debugging, and automation skills often missing from engineering curricula |
 | **Numerical computing** | [Python Programming and Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html) | Engineering-first examples with executable Python workflows |
-| **Mathematical intuition** | [Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) | Strong visual understanding of matrices, eigenvectors, and transformations |
+| **Mathematical intuition** | [Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) | Strong visual understanding of matrices, eigenvectors and transformations |
 | **CFD fundamentals** | [CFD Direct: Notes on CFD](https://doc.cfd.direct/notes/cfd-general-principles/) | Concise finite-volume and solver guidance from an authoritative source |
-| **Turbulence modeling** | [NASA Turbulence Modeling Resource](https://turbmodels.larc.nasa.gov/) | Verified model equations, implementation details, and benchmark cases |
-| **Scientific AI** | [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) | Connects numerical simulation, differentiable physics, and modern learning methods |
-| **Reproducible research** | [The Turing Way](https://book.the-turing-way.org/) | A practical handbook for reliable, ethical, and collaborative research |
+| **Turbulence modeling** | [NASA Turbulence Modeling Resource](https://turbmodels.larc.nasa.gov/) | Verified model equations, implementation details and benchmark cases |
+| **Scientific AI** | [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) | Connects numerical simulation, differentiable physics and modern learning methods |
+| **Reproducible research** | [The Turing Way](https://book.the-turing-way.org/) | A practical handbook for reliable, ethical and collaborative research |
 
 ## Explore by category
 
