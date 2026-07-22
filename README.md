@@ -291,32 +291,6 @@ A resource is considered for inclusion when it is:
 
 Read the complete criteria in [Resource Guidelines](docs/resource-guidelines.md).
 
-## Repository structure
-
-```text
-computational-engineering-resource-hub/
-├── README.md                         # Repository landing page and resource library
-├── data/
-│   └── resources.json                # Structured source of truth for all resources
-├── docs/
-│   ├── learning-roadmap.md           # Expanded learning roadmap
-│   └── resource-guidelines.md        # Curation and review standards
-├── assets/
-│   └── branding/                     # Light and dark README header artwork
-├── scripts/
-│   ├── generate_readme.py            # Rebuilds the resource tables from JSON
-│   └── validate_resources.py         # Validates fields, URLs, categories, and duplicates
-├── .github/
-│   ├── ISSUE_TEMPLATE/               # Structured resource suggestion form
-│   ├── workflows/                    # Link checking and dataset validation
-│   └── PULL_REQUEST_TEMPLATE.md
-├── CONTRIBUTING.md
-├── CITATION.cff
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-└── LICENSE
-```
-
 ## Contributing
 
 Contributions are welcome through either a structured issue or a pull request.
