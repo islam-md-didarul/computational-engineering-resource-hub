@@ -28,7 +28,7 @@
 
 | **58 curated resources** | **10 technical domains** | **57 free/open resources** | **18 editor's picks** |
 |:---:|:---:|:---:|:---:|
-| Courses, books, documentation, tutorials, and references | From programming foundations to scientific AI | Prioritizing accessible learning and official sources | Marked with ⭐ inside the library |
+| Courses, books, documentation, tutorials and references | From programming foundations to scientific AI | Prioritizing accessible learning and official sources | Marked with ⭐ inside the library |
 
 ## Why this repository
 
@@ -131,7 +131,7 @@ flowchart LR
 <details>
 <summary><strong>🔢 Numerical Methods</strong> &nbsp;·&nbsp; 4 resources &nbsp;·&nbsp; 1 beginner / 2 intermediate / 1 advanced</summary>
 
-> Algorithms for equations, ODEs, PDEs, integration, interpolation, and error analysis.
+> Algorithms for equations, ODEs, PDEs, integration, interpolation and error analysis.
 
 | Resource | Focus | Level | Format | Access |
 |---|---|:---:|:---:|:---:|
