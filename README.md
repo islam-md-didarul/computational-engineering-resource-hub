@@ -22,7 +22,7 @@
 </div>
 
 > [!IMPORTANT]
-> This is a **repository-first knowledge hub**. Everything is designed to work directly inside GitHub—no separate website, custom CSS, or GitHub Pages deployment is required.
+> This is a **repository-first knowledge hub**. Everything is designed to work directly inside GitHub—no separate website, custom CSS or GitHub Pages deployment is required.
 
 ## At a glance
 
