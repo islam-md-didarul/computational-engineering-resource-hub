@@ -49,12 +49,12 @@
 
 ```mermaid
 flowchart LR
-    A[1 · Programming & Tools] --> B[2 · Mathematics]
-    B --> C[3 · Numerical Methods]
-    C --> D{4 · Domain Simulation}
-    D --> E[5 · HPC & Acceleration]
-    E --> F[6 · Optimization / Scientific AI]
-    F --> G[7 · Reproducible Research]
+    A[Programming & Tools] --> B[Mathematics]
+    B --> C[Numerical Methods]
+    C --> D{Domain Simulation}
+    D --> E[HPC & Acceleration]
+    E --> F[Optimization / Scientific AI]
+    F --> G[Reproducible Research]
 
     D --> D1[CFD]
     D --> D2[FEA]
